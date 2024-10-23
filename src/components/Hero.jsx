@@ -42,7 +42,7 @@ const Hero = () => {
       Full stack web applications</p>
       </div>
     </div>
-    <ComputersCanvas/>
+    <ComputersCanvas className='hover:grab' />
 
     <div className={`absolute w-full ${isMobile ? 'bottom-40' : 'bottom-0'} flex justify-center items-center`}>
     <a href='#about'>
