@@ -41,7 +41,7 @@ const Hero = () => {
       <p className={`${styles.heroSubText} mt-2 text-white-100 `}> I develop responsive<br className='sm:block hidden'/>
       Full stack web applications</p>
       </div>
-    </div>
+    </div> 
     <ComputersCanvas className='hover:grab' />
 
     <div className={`absolute w-full ${isMobile ? 'bottom-40' : 'bottom-0'} flex justify-center items-center`}>
