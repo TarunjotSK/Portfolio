@@ -38,7 +38,8 @@ const Contact = () => {
           to_email: "tarun252509@gmail.com",
           message: form.message,
         },
-        process.env.REACT_APP_js_id
+        'Xsk8yLfC8dgcID9qG'
+        //process.env.REACT_APP_js_id
       )
       .then(
         () => {
