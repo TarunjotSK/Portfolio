@@ -28,11 +28,11 @@ const Contact = () => {
     e.preventDefault();
     setLoading(true);
 
-    conaole.log(process);
+    console.log(process);
     console.log(process.env.REACT_APP_service_id);
     console.log(process.env.REACT_APP_template_id);
     console.log(process.env.REACT_APP_js_id);
-    
+
     emailjs
       .send(
         process.env.REACT_APP_service_id,
