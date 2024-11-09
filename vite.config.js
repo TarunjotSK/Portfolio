@@ -14,7 +14,7 @@ export default defineConfig({
     },
     define: {
         // Define `process.env` to avoid ReferenceError
-        'process.env': {},
+        'process': {},
     },
     optimizeDeps: {
         esbuildOptions: {
