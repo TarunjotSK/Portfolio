@@ -1,12 +1,12 @@
 import React, { useRef, useState } from "react";
 import { motion } from "framer-motion";
 import emailjs from "@emailjs/browser";
+import { env } from 'node:process';
 
 import { styles } from "../styles";
 import { EarthCanvas } from "./canvas";
 import { SectionWrapper } from "../hoc";
 import { slideIn } from "../utils/motion";
-import { c } from "maath/dist/index-0332b2ed.esm";
 
 
 const Contact = () => {
@@ -28,7 +28,7 @@ const Contact = () => {
     e.preventDefault();
     setLoading(true);
 
-    console.log(process);
+    console.log(env);
     console.log(process.env.REACT_APP_service_id);
     console.log(process.env.REACT_APP_template_id);
     console.log(process.env.REACT_APP_js_id);
