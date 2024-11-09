@@ -6,6 +6,7 @@ const App = () =>{
     <BrowserRouter>
      <div className="realtive z-0 bg-primary">
      <p>NODE_ENV value is "{process.env.NODE_ENV}"</p>
+     <p>REACT_APP_service_id value is "{process.env.REACT_APP_service_id}"</p>
       <div className="bg-hero-pattern bg-cover bg-no-repeat bg-center">
         <Navbar />
         <Hero />
