@@ -12,10 +12,6 @@ export default defineConfig({
             process: 'rollup-plugin-node-polyfills/polyfills/process-es6',
         }
     },
-    define: {
-        // Define `process.env` to avoid ReferenceError
-        'process': {},
-    },
     optimizeDeps: {
         esbuildOptions: {
             define: {
