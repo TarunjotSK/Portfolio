@@ -11,6 +11,8 @@
   },
   "dependencies": {
     "@emailjs/browser": "^4.4.1",
+    "@esbuild-plugins/node-globals-polyfill": "^0.2.3",
+    "@esbuild-plugins/node-modules-polyfill": "^0.2.2",
     "@react-three/drei": "^9.114.4",
     "@react-three/fiber": "^8.17.10",
     "framer-motion": "^11.11.9",
@@ -20,6 +22,7 @@
     "react-parallax-tilt": "^1.7.246",
     "react-router-dom": "^6.27.0",
     "react-vertical-timeline-component": "^3.6.0",
+    "rollup-plugin-node-polyfills": "^0.2.1",
     "three": "^0.169.0"
   },
   "devDependencies": {
