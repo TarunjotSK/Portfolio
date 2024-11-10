@@ -5,7 +5,7 @@ const App = () =>{
   return (
     <BrowserRouter>
      <div className="realtive z-0 bg-primary">
-     <p>NODE_ENV value is "{JSON.stringify(process.env.NODE_ENV)}"</p>
+     <p>NODE_ENV value is "{JSON.stringify(process)}"</p>
       <div className="bg-hero-pattern bg-cover bg-no-repeat bg-center">
         <Navbar />
         <Hero />
