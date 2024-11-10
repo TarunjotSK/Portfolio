@@ -28,8 +28,7 @@ const Contact = () => {
     e.preventDefault();
     setLoading(true);
 
-    console.log(process);
-    console.log(process.env.REACT_APP_service_id);
+    console.log(process.env.REACT_APP_SERVICE_ID);
     console.log(process.env.REACT_APP_template_id);
     console.log(process.env.REACT_APP_js_id);
 
