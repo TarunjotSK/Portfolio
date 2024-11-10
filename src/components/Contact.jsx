@@ -28,14 +28,10 @@ const Contact = () => {
     e.preventDefault();
     setLoading(true);
 
-    console.log(process.env.REACT_APP_SERVICE_ID);
-    console.log(process.env.REACT_APP_template_id);
-    console.log(process.env.REACT_APP_js_id);
-
     emailjs
       .send(
-        process.env.REACT_APP_service_id,
-        process.env.REACT_APP_template_id,
+        import.meta.env.VITE_SERVICE_ID,
+        import.meta.env.VITE_TEMPLATE_ID
         {
           from_name: form.name,
           to_name: "Tarun",
@@ -43,8 +39,7 @@ const Contact = () => {
           to_email: "tarun252509@gmail.com",
           message: form.message,
         },
-        'Xsk8yLfC8dgcID9qG'
-        //process.env.REACT_APP_js_id
+        import.meta.env.VITE_ID
       )
       .then(
         () => {

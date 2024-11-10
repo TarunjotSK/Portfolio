@@ -5,7 +5,6 @@ const App = () =>{
   return (
     <BrowserRouter>
      <div className="realtive z-0 bg-primary">
-     <p>NODE_ENV value is "{JSON.stringify(import.meta.env.VITE_SERVICE_ID)}"</p>
       <div className="bg-hero-pattern bg-cover bg-no-repeat bg-center">
         <Navbar />
         <Hero />
