@@ -31,7 +31,7 @@ const Contact = () => {
     emailjs
       .send(
         import.meta.env.VITE_SERVICE_ID,
-        import.meta.env.VITE_TEMPLATE_ID
+        import.meta.env.VITE_TEMPLATE_ID,
         {
           from_name: form.name,
           to_name: "Tarun",
