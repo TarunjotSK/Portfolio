@@ -6,6 +6,7 @@ import rollupNodePolyFill from 'rollup-plugin-node-polyfills';
 
 export default defineConfig({
     plugins: [react()],
+    envPrefix: 'REACT_APP_',
     resolve: {
         alias: {
             // This alias ensures `process` is polyfilled
