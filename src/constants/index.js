@@ -180,20 +180,20 @@ import {
   
   const projects = [
     {
-      name: "Car Rent",
+      name: "Movieza",
       description:
-        "Web-based platform that allows users to search, book, and manage car rentals from various providers, providing a convenient and efficient solution for transportation needs.",
+        "Web-based platform that allows users to watch trailer, post comments and see others comments on a movie.",
       tags: [
         {
-          name: "react",
+          name: "java-spring-boot",
           color: "blue-text-gradient",
         },
         {
-          name: "mongodb",
+          name: "react",
           color: "green-text-gradient",
         },
         {
-          name: "tailwind",
+          name: "mongdb",
           color: "pink-text-gradient",
         },
       ],
