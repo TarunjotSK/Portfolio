@@ -198,7 +198,7 @@ import {
         },
       ],
       image: carrent,
-      source_code_link: "https://github.com/",
+      source_code_link: "https://github.com/TarunjotSK/Movieza",
     },
     {
       name: "Job IT",
