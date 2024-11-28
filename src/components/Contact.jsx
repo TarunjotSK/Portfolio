@@ -33,9 +33,9 @@ const Contact = () => {
         import.meta.env.VITE_TEMPLATE_ID,
         {
           from_name: form.name,
-          to_name: "Tarun",
+          to_name: "Tyler",
           from_email: form.email,
-          to_email: "tarun252509@gmail.com",
+          to_email: "tylerkohli.dev@gmail.com",
           message: form.message,
         },
         import.meta.env.VITE_ID

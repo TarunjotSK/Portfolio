@@ -37,7 +37,7 @@ const Hero = () => {
       </div>
       <div>
 
-      <h1 className={`${styles.heroHeadText} text-white`} >Hi I am <span className='text-[#915eff]'>Tarun</span></h1>
+      <h1 className={`${styles.heroHeadText} text-white`} >Hi I am <span className='text-[#915eff]'>Tyler</span></h1>
       <p className={`${styles.heroSubText} mt-2 text-white-100 `}> I develop responsive<br className='sm:block hidden'/>
       Full stack web applications</p>
       </div>

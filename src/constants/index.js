@@ -154,7 +154,7 @@ import {
   const testimonials = [
     {
       testimonial:
-        "I thought it was impossible to make a website as beautiful as our product, but Tarun proved me wrong.",
+        "I thought it was impossible to make a website as beautiful as our product, but Tyler proved me wrong.",
       name: "Snigdha",
       designation: "Senior Developer",
       company: "CISCO",
@@ -162,7 +162,7 @@ import {
     },
     {
       testimonial:
-        "I've never met a web developer who truly cares about their clients' success like Tarun does.",
+        "I've never met a web developer who truly cares about their clients' success like Tyler does.",
       name: "Twinkle",
       designation: "Senior Manager",
       company: "DHARI",
@@ -170,7 +170,7 @@ import {
     },
     {
       testimonial:
-        "After Tarun optimized our website, our traffic increased by 50%. We can't thank them enough!",
+        "After Tyler optimized our website, our traffic increased by 50%. We can't thank them enough!",
       name: "Daniel",
       designation: "CTO",
       company: "Nimbus",
@@ -219,7 +219,7 @@ import {
         },
       ],
       image: jobit,
-      source_code_link: "https://github.com/",
+      source_code_link: "https://github.com/TarunjotSK",
     },
     {
       name: "Trip Guide",
@@ -240,7 +240,7 @@ import {
         },
       ],
       image: tripguide,
-      source_code_link: "https://github.com/",
+      source_code_link: "https://github.com/TarunjotSK",
     },
   ];
   
